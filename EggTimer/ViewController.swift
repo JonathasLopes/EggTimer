@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     var player: AVAudioPlayer!
     
-    let eggsTime = ["Mole": 3, "Cremoso": 480, "Duro": 720]
+    let eggsTime = ["Mole": 300, "Cremoso": 480, "Duro": 720]
     var timer = Timer()
     var totalTime = 0
     var secondsPassed = 0
